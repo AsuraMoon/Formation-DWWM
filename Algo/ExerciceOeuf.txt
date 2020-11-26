@@ -1,0 +1,36 @@
+L'en-tête {
+    Cuire des oeufs
+}
+
+Partie déclarative {
+    CONST=0
+    VAR:oeufs,energie,plaque,cuisine,assaisonements
+    STRUCT:0
+}
+
+Les fonctions et procédures {
+    FONC
+        jeter les déchets
+    PROC
+        0
+}
+
+Le corps de l'agorithme{
+    Début
+        Prendre des oeufs->fin
+        |
+        V
+        Test d'énérgie->fin
+        |
+        V
+        Mettre la poêle sur la plaque->fin
+        |
+        V
+        Casser les oeufs dans la poêle->fin
+        |<_______________
+        V                |
+        Vérifier cuisson-
+        |
+        V
+        Fin
+}

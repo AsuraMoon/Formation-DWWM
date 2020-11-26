@@ -1,0 +1,2 @@
+checkout master remet sur le dernier commit
+checkout HEAD^ reviens une version en arriêre

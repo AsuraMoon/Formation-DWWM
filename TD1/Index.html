@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!--Type de page-->
+<html lang="en">
+<!--Langue choisit-->
+<head>
+<!--Balise Double Ouvrante "Onglet"-->
+    <meta charset="UTF-8">
+    <!--Balise Orph pour les caractères-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Balise Orph pour transition Web à Web Mobile-->
+    <link rel="stylesheet" href="Style/style.css">
+    <!--Balise Orph pour utliser la fiche de style (lien relatif)-->
+    <title>Mon TD1</title>
+    <!--Titre dans l'onglet-->
+    <link rel="icon" href="Ressources/1200px-France_road_sign_B1.svg.png">
+</head>
+<!--Balise Double Fermante "Onglet"-->
+<body>
+<!--Balise Double Ouvrante "Page"-->
+<h1>Mon premier TD! Moi c'est N1</h1>
+<h2><span>COUCOU N1 je te présente tes fréres et soeurs</span> N2</h2>
+<h3>N3</h3>
+<br>
+<!--br = saut de ligne-->
+<h4>N4</h4>
+<h5>N5</h5>
+<h6>N6</h6>
+<!--Liste balise h-->
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem doloremque alias repudiandae consequatur error excepturi soluta nihil assumenda libero quibusdam sunt eveniet at pariatur quo, magnam fuga aperiam molestiae molestias.</p>
+<blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum veritatis iure hic facere mollitia voluptates.
+ Magni officia inventore porro eius vitae laborum, ad, quis voluptas consequatur ipsa, debitis vero placeat?</blockquote>
+
+<!--blockquote fait décale-->
+<pre>
+              ²   ²    ²   ²
+        ___ _||__|Dir. Mars| 
+      &lt;_ ____|-|_ __ _||___|
+    00 00 00 00 00 00 00 0 
+</pre>
+<!--pre fait décale et prend les caracteres spéciaux-->
+<p><strong>Certains Mots</strong></p>
+<!--stong rend gras et plus accessible de recherche pour les autres navigateurs-->
+<p>Certains Mots</p>
+<!--foo fait rien-->
+<p><i>Certains Mots</i></p>
+<!--i fait italique-->
+<p><em>ça commence a faire beaucoup de mots!</em></p>
+<!--em fait italique(sur les explorers classique)+ référencement (crawl = robot d'indexage)-->
+<h1>GENRE STOP LA!</h1>
+<a target="_blank" href="Curious.html">NE PAS CLICKER ICI</a>
+<!--lien vers curious-->
+<ul>
+    <li>Do</li>
+    <li>Ré</li>
+    <li>Mi</li>
+</ul>
+<!--liste NON ordonnée-->
+<ol>
+    <li>Do</li>
+    <li>Ré</li>
+    <li>Mi</li>
+</ol>
+<!--liste ordonnée-->
+    <form action="form.php" method="GET">
+        <!--action vers quoi le formulaire va etre envoyé OBLIGATOIRE-->
+        <textarea name="text" placeholder="ecrire ici">dites-nous vos pensez</textarea>
+        <!--placeholder (préremplis en indication)--> <!--required signifie obligatoire (Sans valeur)--> <!--value correspond au remplis effectif-->
+        <input type="text" name="prénom" placeholder="Prénom" value="Julien" required/>
+        <!-- type"radio" rond qcm --> <!-- type"checkbox" --> <!--type "date"-->
+        <input type="text" name="nom" placeholder="Nom" required/>
+        <input type="submit"/> <!-- envoi au php-->
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="password" required>
+        <!-- email et password OBLIGATOIRE-->
+        <div>
+            <input type="radio" name="sexe" id="Man" value="Men"><label for="Man">Man</label>
+            <input type="radio" name="sexe" id="Women" value="Women"><label for="Women">Women</label>
+            <!--qcm mec ou fille-->
+        </div>
+        <div>
+            <!--balise block généraliste (sert a tout et rien)-->
+            <input type="checkbox" name="color" id="RED" value="RED"><label for="RED">RED</label>
+            <input type="checkbox" name="color" id="YELLOW" value="YELLOW"><label for="YELLOW">YELLOW</label>
+            <input type="checkbox" name="color" id="BLUE" value="BLUE"><label for="BLUE">BLUE</label>
+            <input type="checkbox" name="color" id="GREEN" value="GREEN"><label for="GREEN">GREEN</label>
+            <input type="checkbox" name="color" id="PINK" value="PINK"><label for="PINK">PINK</label>
+            <input type="checkbox" name="color" id="OTHER" value="OTHER"><label for="OTHER">OHTER</label>
+            <!--check box a plusieurs choix-->
+        </div>
+        <select>
+            <optgroup label="Pays">
+                <option value="corse" selected>CORSU</option>
+                <option value="continentaux">continentaux</option>
+                <!--menu deroulant ouvert-->
+            </optgroup>
+        </select>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>test</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>test</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--tableau 1-->
+    <table>
+        <caption>CREATEUR DE tableau</caption>
+        <tbody>
+            <tr>
+                <!-- création d'un ligne-->
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--tableau 2-->
+    <table>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td> <!--rawspan fusionne les lignes-->
+                <td colspan="2">2</td> <!--COLspan fusionne les COLonnes-->
+                <td rowspan="2">3</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+
+            </tr>
+            <tr>
+                <td >9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--tableau 3-->
+    <table>
+        <tbody>
+            <tr>
+                <td rowspan="3">1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>7</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--tableau 4-->
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">1</th>
+                <!--th sert a crée des textes mieux référencer et en gras-->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>7</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--tableau 5-->
+    <table>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td colspan="3">2</td>
+            </tr>
+            <tr>
+                <td rowspan="3">5</td>
+                <td colspan="2">6</td>
+                <td rowspan="2">7</td>
+            </tr>
+            <tr>
+                <td rowspan="2">9</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td colspan="2">13</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--tableau 6-->
+</body>
+<!--Balise Double Fermante "Page"-->
+</html>

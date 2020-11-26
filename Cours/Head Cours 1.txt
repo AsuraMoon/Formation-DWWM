@@ -1,0 +1,31 @@
+    <head>    
+        <meta charset="UTF-8">
+<!--type de caractère-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--adaptabilité entre web et mobile-->
+
+        <meta name="Keywords" content="Bic BodyMark Marker">
+<!--mot clés pour rechercheur internet-->
+
+        <meta name="robot" content="index">
+<!--autotisation a l'indexage par le robot google-->
+
+        <meta name="source" content="">
+<!--type de logiciel utilisé pour integrer-->
+
+        <meta name="description" content="Site Pub Bic BodyMark">
+<!--description du site-->
+
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!--force IE a passer en EDGE-->
+
+        <link rel="icon" href="Ressources/IconeBicBodyMark.png">
+<!--Icone en haut dans l'onglet-->    
+
+        <link rel="stylesheet" href="Style/style.css">
+<!--style css (ecriture)-->
+
+        <title>BicBodyMark</title>
+<!--Titre dans l'onglet-->
+        </head>

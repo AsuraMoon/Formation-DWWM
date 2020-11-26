@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 5px;
+}
+
+html{
+    background-color: rgb(209, 191, 153);
+    margin: 0px;
+}
+
+article{
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(1fr);
+}
+
+#chinois{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+#neer{
+    grid-column: 1 / 4 ;
+    grid-row: 2 / 3;
+}
+
+#russ{
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+}
+
+.mini{
+    width: 66%;
+}
+
+section{
+    border: 1px solid gray;
+}
+
+.titreRebrique{
+    border-bottom: 1px gray solid;
+    text-align: center;
+}
+
+h1>a{
+    text-decoration: underline;
+}
+
+ul{
+    text-decoration: none;
+    margin: 2px;
+}
+
+.commentaire{
+    font-size: 60%;
+}
+
+a{
+    text-decoration: none;
+    color: black;    
+}
+
+.mini{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#consult{
+    grid-column: 1 / 5;
+    grid-row: 1;
+}
+
+#pacientes{
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+#anatómicas{
+    grid-column: 2 / 3 ;
+    grid-row: 2;
+}
+
+#ligações{
+    grid-column: 1 / 2;
+    grid-row: 3;
+}
+
+#práticas{
+    grid-column: 2 / 3;
+    grid-row: 3;
+}
+
+#utilitários{
+    grid-column: 1 / 2;
+    grid-row: 4;
+}
+
+#vidal{
+    grid-column: 2 / 3;
+    grid-row: 4;
+}

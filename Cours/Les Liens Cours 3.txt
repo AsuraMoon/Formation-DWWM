@@ -1,0 +1,16 @@
+        <body>
+        <a href="#"> Home </a> 
+<!--lien avec # comme href ne change pas la page-->
+
+        <a href="gallery.html"> Gallery </a>
+<!--lien href relatif-->
+
+        <a href="C:/Users/Julien/Downloads/Bic-20201008T161826Z-001/Bic/gallery.html">Gallery</a>
+<!--lien href complet--> (déconseillé)
+
+        <a href="gallery.html"> <ul> <li> Gallery </li> </ul> </a>
+<!--<ul> permet de crée une liste sur le mot et <li>met un point sur le mot de la liste-->
+
+        <a href="#Para"> Para </a>
+<!--le #Para est un ancrage sous forme d'ID qui peux etre rejoins via le lien ci-dessus-->
+        </body>

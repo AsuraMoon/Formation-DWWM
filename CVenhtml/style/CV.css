@@ -1,0 +1,13 @@
+h1{
+    color: blue;
+}
+body{
+    width: 1080px;
+    height: 720px;
+    margin: 20px;
+}
+.titre{
+    border-right: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+}

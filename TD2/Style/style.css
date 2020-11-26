@@ -1,0 +1,17 @@
+/* 13/10/2020 */
+body{background-image: url(../Ressources/le-fond-violet-211880.jpg);}
+/*on fait des commentaires pour faire plaisir a loic*/
+#vert{color: rgb(0, 78, 0);}
+/*on fait des commentaires pour faire plaisir a loic*/
+p{color: rgb(121, 0, 0);border: 2px ridge white;padding: 100px; margin: 100px;}
+/*on fait des commentaires pour faire plaisir a loic*/
+a:hover{color: green;}
+/*on fait des commentaires pour faire plaisir a loic*/
+a:visited{color: pink;}
+/*on fait des commentaires pour faire plaisir a loic*/
+a:active{color: red;}
+/*on fait des commentaires pour faire plaisir a loic*/
+tr{border: 1px ridge white;
+color: wheat;}
+td{border: 1px ridge white;
+color: wheat;}

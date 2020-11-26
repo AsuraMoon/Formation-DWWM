@@ -1,0 +1,42 @@
+/* tout ce qui est commun et standard en premier */
+
+
+/* mobile first */
+@media screen and (max-width: 575px)
+{
+	.séparation{
+        display: none;
+    }
+    h1{
+        text-align: center;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* mobile paysage */
+@media screen and (min-width: 576px) and (max-width: 767px)
+{  
+
+}
+/* tablette */
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+	
+}
+/* tablette paysage */
+@media screen and (min-width: 992px) and (max-width: 1199px)
+{
+	
+}
+/* PC et TV */
+@media screen and (min-width: 1200px)
+{
+	
+}
+/* impression: important pour CV ou documentation */
+@media print
+{
+	
+}

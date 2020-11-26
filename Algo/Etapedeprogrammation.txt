@@ -1,0 +1,14 @@
+Enoncé d'un problème
+
+Analyse du problème: Données du départ (entrées)
+                     Les résultats (sorties)
+
+Algorithme: la séquence d'étapes de calcul qui transforment l(es) entrée(s) en sortie(s).
+            les structures algorithmiques suivant:
+    séquentielle (début... fin),
+    conditonnelle(si...alors), Répétitive (pour ... fin pour)
+    choix multiples(selon...cas1 ,cas2), et la fonctions
+
+Codage : traduction de l'Algorithme en un langage de programmation
+
+Exécution du projramme : vérifier la qualité du programme en le tesant sur différents jeux de Données

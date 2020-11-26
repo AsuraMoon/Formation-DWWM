@@ -1,0 +1,22 @@
+L'en-tête {
+    algorithme NOMALGORITHME;
+}
+La partie déclarative{
+    CONSTantes identificateur=valeur
+    VARriables identificateur:type;
+    STRUCTures identificateur:type;
+}
+Les foncions et les procédures{
+    FONCtions;
+        listes des fonctions
+    PROCédures;
+        listes des procédures
+}
+Le corps de l'algorithme{
+    DEBUT
+        instruction 1;
+        instruction 2;
+        ...
+        instruction n;
+    FIN DE L'ALGORITHME
+}

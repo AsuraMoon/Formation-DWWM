@@ -1,0 +1,30 @@
+ascci art = tout les caractères spéciaux
+alt + 3 = ♥
+balise <foo> sers au exemple
+
+
+balise de navigation
+header nav article section main aside footer -> balise de sémentique block (antérieur a <p> par exemple)
+header -> en-tete
+nav -> site de lien
+main _>Mode lecture
+aside -> élément en lien non direct (flux rss)
+section -> découpeur de paragraphe par idée
+article -> élément indépendant
+div -> balise non sémentique block
+
+padding-> bordure interieure
+bordel -> bodure classique
+marging -> bordure exterieure0
+box-sizing:border-box= toute les bordures avant sauf marging
+
+.class
+#id
+balise enfant>balise adulte
+balise+balise
+balise
+
+!important permet un ordre css comme obligatoire
+a:hover quand on passe sur un lien
+a:visited quand le lien à deja etait ouvert
+a:active quand sur le lien

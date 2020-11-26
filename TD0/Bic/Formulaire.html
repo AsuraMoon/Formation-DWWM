@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--type de caractère-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--adaptabilité entre web et mobile-->
+    <meta name="Keywords" content="Bic BodyMark Marker">
+    <!--mot clés pour rechercheur internet-->
+    <meta name="robot" content="index">
+    <!--autotisation a l'indexage par le robot google-->
+    <meta name="source" content="">
+    <!--type de logiciel utilisé pour integrer-->
+    <meta name="description" content="Site Pub Bic BodyMark">
+    <!--description du site-->
+    <link rel="icon" href="Ressources/IconeBicBodyMark.png">
+    <!--petit icone en haut dans l'onglet-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!--force IE a passer en EDGE-->
+    <link rel="stylesheet" href="Style/style.css">
+    <!--style css (ecriture)-->
+    <title>BicBodyMark</title>
+    <!--Titre dans l'onglet-->
+</head>
+<body>
+    <form action="form.php" method="GET">
+        <!--action vers quoi le formulaire va etre envoyé-->
+        <input type="text" name="prénom" placeholder="Prénom" value="Julien" required/>
+        <!--placeholder (préremplis en indication)--> <!--required signifie obligatoire (Sans valeur)--> <!--value correspond au remplis effectif-->
+        <!-- type"radio" rond qcm --> <!-- type"checkbox" --> <!--type "date"-->
+        <textarea name="mon texte" placeholder="ecrire ici...">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quos doloremque iusto laudantium qui corrupti, enim odio sequi? Totam, dicta! Dolore, nobis ut! Dicta iste veritatis ipsam porro reprehenderit ullam!</textarea>
+        <input type="submit"/> <!-- envoi au php-->
+        <select>
+            <optgroup label="Fruits">
+                <option value="Banane">BANANE</option>
+                <option value="Fraise" selected>FRAISE</option>
+                <!--Permet d'obtenir un menu deroulant avec banane et fraise dont fraise préselect-->
+            </optgroup>
+        </select>
+        <select multiple>
+            <optgroup label="Fruits">
+                <option value="Banane">BANANE</option>
+                <option value="Fraise" selected>FRAISE</option>
+                <!--menu deroulant ouvert-->
+        </select>
+    </form>
+</body>
+</html>

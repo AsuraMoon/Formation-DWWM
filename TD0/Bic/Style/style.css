@@ -1,0 +1,33 @@
+/* 07/10/2020
+* author :Asura
+* v1.0 */
+p{color: rgb(133, 76, 23);}
+.Team{font-size: 800%;}
+strong{color: rgb(116, 240, 169);}
+body{background-color:wheat;}
+ul{color: black;}
+img{width: 80%;}
+#HanSolo{color: teal;}
+#HanYolo{color: violet;}
+#ROUGE{font-size: 800%;}
+#JAUNE{font-size: smaller;}
+#VERT{font-size: 2vh;}
+#BLEU{font-size: 80px;}
+#VIOLET{font-size: 2em;}
+#BLACK{font-size: 50pt;}
+/* toute les tailles si dessus sont basé sur la balise parente */
+/* rem et small notamment sur basé sur un predefini*/
+@font-face{font-family: "cheri";
+            src: url("../Ressources/cheri/CHERI.TTF");}
+@font-face{font-family: "cherl";
+            src: url("../Ressources/cheri/CHERL.TTF");}
+/* force l'utilisation de la police meme si le nav ne l'as possède pas */
+*{font-family: "cheri";}
+#secret span{display:none;}
+#secret:focus span{display:inline;}
+p+a /* a après un p */
+p a /* a dans p */
+p,a /* p et a */
+p>a /* selectionné tout les a dans p */
+a:hover{color: green;} 
+*{border: 1px solid black;}

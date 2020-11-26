@@ -1,0 +1,25 @@
+        <body>
+        <p> TEXTE </p>
+<!--crée un paragraphe avec le texte au centre des balises <p>&</p>
+
+        <div> TEXTE </div>
+<!--crée un paragraphe avec le texte au centre des balises <div>&</div>
+mais plus marqué que les balises <p>-->
+
+        <h1> TEXTE </h1>
+<!--crée un paragraphe avec le texte au centre des balises <h1>&</h1>
+mais plus grand que <p>-->
+
+        <h2> TEXTE </h2>
+<!--crée un paragraphe avec le texte au centre des balises <h1>&</h1>
+mais plus petit que <h1>-->
+
+        <mark> TEXTE </mark>
+<!--surligne le texte au centre des balises <mark>&</mark>
+
+        <strong> TEXTE </strong>
+<!--rend le texte au centre des balises <stronge>&</strong> en gras et fait un meilleure référencement-->
+
+	<!-- TEXTE -->
+<!--rend le texte au centre des balises <!-- --> lisible uniquement pour le codeur-->
+        </body>
