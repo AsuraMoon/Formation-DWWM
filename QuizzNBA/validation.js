@@ -16,15 +16,17 @@ FORM.addEventListener("submit", (event) => {
 
 	/* On boucle sur le tableau des réponses* */
 	for (let i = 1; i <= RESPONSES.length; i++) {
+		console.log("coucou")
 		/**
 		 * On push les réponses dans le tableau userResponses
 		 * grace à querySelector
 		 */
 		userResponses.push(
-			document.querySelector(`input[name="reponse1${i}"]:checked`).value
+			document.querySelector(`input[name="reponse${i}"]:checked`).value
 		);
 	}
-
+	console.log(userResponses)
+	
 	checkIsTrue(userResponses);
 
 	userResponses = [];
