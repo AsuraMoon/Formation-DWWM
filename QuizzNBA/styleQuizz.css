@@ -1,7 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-image: url(photo-1521412644187-c49fa049e84d.jpg);
+    background-image: url(Plandetravail1.png);
     float: inline-start;
 }
 
@@ -56,6 +56,9 @@ input {
   
 
   @media screen and (max-width: 634px){
+      body{
+        background-image: url(photo-1521412644187-c49fa049e84d.jpg);
+      }
       .groupeReponse{
           display: flex;
           flex-direction: column;
