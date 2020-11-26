@@ -24,8 +24,7 @@ FORM.addEventListener("submit", (event) => {
 			document.querySelector(`input[name="reponse${i}"]:checked`).value
 		);
 	}
-	console.log(userResponses)
-	
+	console.log(userResponses)	
 	checkIsTrue(userResponses);
 
 	userResponses = [];
