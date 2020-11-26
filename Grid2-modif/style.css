@@ -1,0 +1,102 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+
+.GRID1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "BLOC1 BLOC1"
+    "BLOC2 BLOC3";
+    margin: 10px;
+    box-shadow: 5px 5px 10px grey ;
+    border-radius: 10px;
+}
+
+.BLOC1{
+    grid-area: BLOC1;
+    min-width: 150px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: grey;
+    padding: 25px;
+}
+
+.BLOC2{
+    grid-area: BLOC2;
+    min-width: 150px;
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    padding: 35px;
+    padding-top: 15px;
+    border-bottom-left-radius: 10px;
+}
+
+.BLOC3{
+    grid-area: BLOC3;
+    min-width: 150px;
+    background-color: hsl(179, 47%, 52%);
+    color: white;
+    padding: 35px;
+    border-bottom-right-radius: 10px;
+    padding-top: 15px;
+}
+
+#DOLLAR{
+    font-size: 35px ;
+    font-weight: bold;
+}
+
+#CASH{
+    color: rgb(206, 206, 206);
+    font-size: 75%;
+    position: relative; top: -10px;
+}
+
+
+h1{
+    color: hsl(179, 62%, 43%);
+}
+
+#vert{
+    color: hsl(71, 73%, 54%) ;
+}
+body{
+    background-color: hsl(204, 43%, 93%) ;
+}
+
+#SIGN{
+    background-color: hsl(71, 73%, 54%);
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    border: transparent;
+}
+
+#coded{
+    font-size: x-small;
+}
+
+@media only screen and (max-width: 500px) {
+    .GRID1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'BLOC1'
+        'BLOC2'
+        'BLOC3';
+    }
+    .BLOC2{
+        border-radius: 0px;
+    }
+    .BLOC3{
+        border-bottom-left-radius: 10px;
+    }
+}

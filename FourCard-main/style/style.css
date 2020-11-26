@@ -1,0 +1,62 @@
+@font-face{font-family: "Poppins";
+    src: url("Poppins/Poppins-Regular.ttf");}
+    
+
+body{
+    text-align: center;
+    background-color:hsl(0, 0%, 90%) ;
+    font-family: "Poppins";
+    font-size: 15px;
+    color:hsl(234, 12%, 34%);
+}
+
+#Titre{
+    font-size: 150%;
+    margin: 0%;
+    font-weight: normal;
+}
+
+#Surtitre{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carte{
+    background-color:hsl(0, 0%, 90%);
+    border-radius: 5px;
+    box-shadow: 7px 5px 5px hsl(229, 6%, 66%);
+    padding: 15px;
+    margin: 15px;
+    width: 295px;
+}
+
+
+img{
+    display: block;
+    margin-left: 75%;
+    margin-bottom: 5%;
+}
+
+#TeamBuilder{
+    border-top:ridge hsl(0, 78%, 62%);
+}
+
+#Calculator{
+    border-top: ridge hsl(212, 86%, 64%);
+}
+
+#Supervisor{
+    border-top: ridge hsl(180, 62%, 55%);
+}
+
+#Karma{
+    border-top: ridge hsl(34, 97%, 64%);
+}
+
