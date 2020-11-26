@@ -1,7 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-image: url(giphy-downsized.gif);
+    background-image: url(photo-1521412644187-c49fa049e84d.jpg);
     float: inline-start;
 }
 
@@ -24,6 +24,7 @@ strong{
     padding-left: 15px;
     padding-right: 15px;
     color: white;
+    background-color: rgb(53, 53, 53);
 }
 
 .groupeReponse{
@@ -54,7 +55,7 @@ input {
   }
   
 
-  @media screen and (max-width: 830px){
+  @media screen and (max-width: 634px){
       .groupeReponse{
           display: flex;
           flex-direction: column;
