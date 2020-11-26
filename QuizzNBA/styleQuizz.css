@@ -42,21 +42,11 @@ strong{
 }
 
 input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+    display: none;
+}
   
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-  
-    border: 2px solid #999;
-    margin-right: 5px;  
-    position: relative;
-  }
-  
-  input:checked {
-    border: 10px solid gray;
+  input:checked + label {
+    background-color: grey;
   }
   
 
