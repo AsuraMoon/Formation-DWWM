@@ -16,7 +16,6 @@ FORM.addEventListener("submit", (event) => {
 
 	/* On boucle sur le tableau des réponses* */
 	for (let i = 1; i <= RESPONSES.length; i++) {
-		console.log("coucou")
 		/**
 		 * On push les réponses dans le tableau userResponses
 		 * grace à querySelector

@@ -1,6 +1,8 @@
 body{
     padding: 0px;
     margin: 0px;
+    background-image: url(giphy-downsized.gif);
+    float: inline-start;
 }
 
 #BUTTON{
@@ -21,6 +23,7 @@ strong{
     font-size: 150%;
     padding-left: 15px;
     padding-right: 15px;
+    color: white;
 }
 
 .groupeReponse{
@@ -39,6 +42,7 @@ strong{
     font-size: 125%;
     font-weight: bold;
     background-color: wheat;
+    padding: 15px;
 }
 
 input {
@@ -54,8 +58,11 @@ input {
       .groupeReponse{
           display: flex;
           flex-direction: column;
+          margin: 15px;
       }
       .reponse{
-          width: 100%;
+          width: 90%;
+          margin: 0px;
+          margin-top: 15px;
       }
   }
