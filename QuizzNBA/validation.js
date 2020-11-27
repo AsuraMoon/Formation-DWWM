@@ -45,3 +45,30 @@ function checkIsTrue(array) {
 console.log(checkArray);
 checkArray = []
 }
+
+displayResult(checkArray);
+
+function displayResult(checkArray) {
+	/** creer une const qui récupère le nombre d'élément qui sont différent de true */
+
+	const nbFalse = checkArray.filter((element) => element === false).length;
+
+	switch (nbFalse) {
+		case 0:
+			TITLERESULTATS.innerText = "T'es un joueur All-Star";
+			HELPRESULTATS.innerText = "Je peux avoir un autographe ?";
+			NOTERESULTATS.innerText = "100%";
+			break;
+		case 1:
+			TITLERESULTATS.innerText = "Un 3p sur Deux....";
+			HELPRESULTATS.innerText = "Retourne t'entrainer !";
+			NOTERESULTATS.innerText = "50%";
+			break;
+		case 2:
+			TITLERESULTATS.innerText = "Arrête le basket ou ne le commence jamais 🤬";
+			NOTERESULTATS.innerText = "0%";
+			break;
+		default:
+			"T'as fais comment pour arriver la, toi ?";
+	}
+}
