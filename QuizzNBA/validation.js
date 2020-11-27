@@ -43,16 +43,17 @@ function checkIsTrue(array) {
 		}
     }
 console.log(checkArray);
+displayResult(checkArray);
 checkArray = []
 }
 
-displayResult(checkArray);
+
 
 function displayResult(checkArray) {
 	/** creer une const qui récupère le nombre d'élément qui sont différent de true */
 
 	const nbFalse = checkArray.filter((element) => element === false).length;
-
+console.log(nbFalse)
 	switch (nbFalse) {
 		case 0:
 			TITLERESULTATS.innerText = "T'es un joueur All-Star";
@@ -66,9 +67,13 @@ function displayResult(checkArray) {
 			break;
 		case 2:
 			TITLERESULTATS.innerText = "Arrête le basket ou ne le commence jamais 🤬";
-			NOTERESULTATS.innerText = "0%";
+			NOTERESULTATS.innerText = "0 des 0";
 			break;
 		default:
 			"T'as fais comment pour arriver la, toi ?";
 	}
 }
+
+const TITLERESULTATS = document.querySelector("#intro");
+const HELPRESULTATS = document.querySelector("#aide");
+const NOTERESULTATS = document.querySelector("#note");

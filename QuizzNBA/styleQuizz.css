@@ -59,11 +59,17 @@ input {
     height: 150px;
     background-color: wheat;
     margin-left: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 20px;
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#resultats>*{
+    padding: 0px;
+    margin: 2px;
+    justify-content: center;
 }
   
 
