@@ -1,0 +1,67 @@
+Const positionCoM , positionLiM
+Var valeurNombre[positionCo , positionLi] : entiers
+
+positionCoM=5
+positionLiM=11
+
+    positionCo , positionLi
+    Pour positionLi ← 0 a positionLiM par pas de 1;
+        Pour  positionCo ← 0 à positionCoM par pas de 1;
+            afficher("Entrer un nombre en colone "positionCo" et ligne "positionLi"  )
+            lire( valeurNombre[positionCo , positionLi] )
+        fpour
+    fpour
+
+
+// Ici notre fonction prend en paramètre un tableau et sa taille et renvoi la note max
+Fonction renvoieMax(tableau[colonne, ligne]  : entier) : réels
+    variables   i, j : entiers
+                tableIndex:[]
+
+    tableIndex[0] ← 0
+    tableIndex[1] ← 0
+    
+    i ← 0
+    j ← 0
+
+  POUR i ← 0 à i < ligne par pas de 1
+    POUR j ← 0 à j < colonne par pas de 1
+      SI tableau[tableIndex[0],tableIndex[1]] < tableau[j, i]
+          tableIndex[0] ← j
+          tableIndex[1] ← i
+
+    FPOUR
+  FPOUR
+
+  RETOURNE tableIndex
+FF
+```
+
+```js
+
+FONCTION tableau3D(table[colonne, ligne, profondeur] : entier) : réels
+variable i, j, p, : entier
+
+p ← 0
+i ← 0
+j ← 0
+
+POUR p ← 0 à p < profondeur par pas de 1
+    POUR i ← 0 à i < ligne par pas de 1
+        POUR j ← 0 a j < colonne par pas de 1
+            table[j, i, p] ← valeur
+        FPOUR
+    FPOUR
+FPOUR
+FFONCTION
+```
+# morpion 
+
+(2 joueurs)
+Ecrire un algorithme du jeu du morpion
+L’ordinateur demande à l’utilisateur dans quelle case il veut jouer.
+On vérifie si la case a déjà été jouée.
+Les caractères à utiliser sont X ou O.
+jusqu'à former une ligne, colonne ou diagonale
+
+Contrainte Faire des fonctions et procédures
